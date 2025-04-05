@@ -1,0 +1,33 @@
+.bgclr{
+    background-color: #121212;
+}
+
+
+
+
+.scrollbar{
+    overflow-y: auto;
+    max-height: 85vh;
+}
+
+
+
+
+
+/* Webkit (Safari/Chrome) scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #333; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666; /* color of the scrollbar thumb */
+    border-radius: 5px; /* roundness of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #999; /* color of the thumb on hover */
+}
